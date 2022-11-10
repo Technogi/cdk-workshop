@@ -2,7 +2,7 @@
   "name": "workshops-cdk",
   "version": "0.1.0",
   "bin": {
-    "workshops-dentegra": "bin/workshops-dentegra.js"
+    "workshops-cdk": "bin/workshops-cdk.js"
   },
   "scripts": {
     "build": "tsc",

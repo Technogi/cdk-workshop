@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
-import { WorkshopsCdkStack as WorkshopsCdkStack } from '../lib/workshops-dentegra-stack';
+import { WorkshopsCdkStack as WorkshopsCdkStack } from '../lib/workshops-cdk-stack';
 
 const app = new cdk.App();
 new WorkshopsCdkStack(app, 'WorkshopsCdkStack', {
