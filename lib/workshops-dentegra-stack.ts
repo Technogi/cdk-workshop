@@ -7,7 +7,7 @@ import * as apigw from 'aws-cdk-lib/aws-apigateway'
 import { join } from 'path';
 import { CfnOutput } from 'aws-cdk-lib';
 
-export class WorkshopsDentegraStack extends cdk.Stack {
+export class WorkshopsCdkStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
